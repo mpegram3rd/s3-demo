@@ -1,0 +1,12 @@
+.idea/
+.gradle
+
+build/
+classes/
+target/
+out/
+
+*.ipr
+*.iws
+*.iml
+.idea_modules/
