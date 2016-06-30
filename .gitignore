@@ -10,3 +10,5 @@ out/
 *.iws
 *.iml
 .idea_modules/
+
+access.properties
