@@ -11,6 +11,6 @@ This uses 2 approaches to pull S3 lists...
 
 ----
 ## Usage:
-- Configure AWS connection information in "application.properties"
+- Configure AWS connection information in "src/main/resources/application.properties"
 - Execute the app: ./gradlew bootRun
 
