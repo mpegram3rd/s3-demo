@@ -8,4 +8,8 @@ This uses 2 approaches to pull S3 lists...
 
 1. Uses Spring to wire up standard AWS S3 Library dependencies (REST endpoint: /storage/list)
 2. The other approach is the more Spring like way of doing things by using a ResourcePatternResolver that understands URIs of the form s3://bucket/** (REST endpoint: /storage/resources)
+----
+## Usage:
+- Configure AWS connection information in "application.properties"
+- Execute the app: ./gradlew bootRun
 
